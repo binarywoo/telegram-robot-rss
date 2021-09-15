@@ -4,7 +4,7 @@
     "env": {
     "BOT_TOKEN": {
       "description": "your bot token",
-      "value": ""
+      "value": "1995921962:AAHiTpWhILY9o2cD9jryaHoVBwqsA6yE6Uw"
     },
     "UPDATE_INTERVAL": {
       "description": "update feeds per seconds",
