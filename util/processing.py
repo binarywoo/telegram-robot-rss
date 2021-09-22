@@ -61,8 +61,7 @@ class BatchProcess(threading.Thread):
                     traceback.print_exc()
                     message = "Something went wrong when I tried to parse the URL: \n\n " + \
                         url[0] + "\n\nCould you please check that for me? Remove the url from your subscriptions using the /remove command, it seems like it does not work anymore!"
-                    # self.bot.send_message(chat_id=user[0], text=message, parse_mode=ParseMode.HTML)
-                    self.bot.send_message(chat_id="rb-K-TBR3rA1ZGE1", text=message, parse_mode=ParseMode.HTML)
+                    self.bot.send_message(chat_id=user[0], text=message, parse_mode=ParseMode.HTML)
 
         self.db.update_url(url=url[0], last_updated=str(
             DateHandler.get_datetime_now()))
