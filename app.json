@@ -8,7 +8,7 @@
     },
     "UPDATE_INTERVAL": {
       "description": "update feeds per seconds",
-      "value": "300"
+      "value": "30"
     }
   }
 }
